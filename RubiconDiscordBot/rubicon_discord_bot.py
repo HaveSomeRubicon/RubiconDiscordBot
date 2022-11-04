@@ -12,3 +12,5 @@ if config.REPLIT_MODE is not False:
     TOKEN = os.getenv("TOKEN")
 else:
     TOKEN = config.TOKEN
+
+bot = discord.Bot()
