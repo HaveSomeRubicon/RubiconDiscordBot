@@ -17,5 +17,6 @@ intents = discord.Intents.all()
 
 bot = discord.Bot(
     owner_id=898360989991448586,
+    debug_guilds=[957705629185761442, 1010287997368946708],
     intents=intents
 )
