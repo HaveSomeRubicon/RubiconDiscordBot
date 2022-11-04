@@ -13,6 +13,8 @@ if config.REPLIT_MODE is not False:
 else:
     TOKEN = config.TOKEN
 
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 
-bot = discord.Bot()
+bot = discord.Bot(
+    intents=intents
+)
