@@ -7,4 +7,8 @@ import json
 
 import config
 
-replit_mode = False
+
+if config.REPLIT_MODE is not False:
+    TOKEN = os.getenv("TOKEN")
+else:
+    TOKEN = config.TOKEN
