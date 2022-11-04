@@ -13,4 +13,6 @@ if config.REPLIT_MODE is not False:
 else:
     TOKEN = config.TOKEN
 
+intents = discord.Intents.default()
+
 bot = discord.Bot()
