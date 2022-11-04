@@ -1,1 +1,2 @@
+TOKEN = ""
 REPLIT_MODE = False
