@@ -16,5 +16,6 @@ else:
 intents = discord.Intents.all()
 
 bot = discord.Bot(
+    owner_id=898360989991448586,
     intents=intents
 )
